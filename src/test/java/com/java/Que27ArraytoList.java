@@ -18,23 +18,14 @@ public class Que27ArraytoList {
 		
 		List<Integer> e = new ArrayList<Integer>();	
 		
-		for (int i = 0; i < a.length; i++) {
-			e.add(a[i]);
-
-		}
-
+			for (Integer integer : a) {
+				
+				e.add(integer);
+				
+			}
 		System.out.println(e);
-
-	}
-//		  
-//			for (Integer integer : a) {
-//				
-//				e.add(integer);
-//				
-//			}
-//		System.out.println(e);
-//			
-//		}
+			
+		}
 				
 	}
 
