@@ -10,10 +10,11 @@ public class Que26Array {
 		a[3] = 40;
 		a[4] = 50;
 
-		for (int i : a) {
-			System.out.println(i);
+		for (int i = 0; i < a.length; i++) {
+			 System.out.println(a[i]);
+			
+		}
 
 		}
 
-}
 }
