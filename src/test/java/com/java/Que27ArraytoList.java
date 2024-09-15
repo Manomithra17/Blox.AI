@@ -5,9 +5,8 @@ import java.util.List;
 
 public class Que27ArraytoList {
 	public static void main(String[] args) {
-//		int a[]= {10,20,30,40,50};
-		// or 
-		int a[] = new int[5];	
+		int a[]= {10,20,30,40,50};
+		
 		
 		a[0] = 10;
 		a[1] = 60;
@@ -18,15 +17,15 @@ public class Que27ArraytoList {
 		
 		List<Integer> e = new ArrayList<Integer>();	
 		
-		for (int i = 0; i < a.length; i++) {
-			e.add(a[i]);
-
-		}
-
+			for (Integer integer : a) {
+				
+				e.add(integer);
+				
+			}
 		System.out.println(e);
-
-	}
+			
 		}
-					
+				
+	}
 
 
