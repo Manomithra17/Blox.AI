@@ -9,9 +9,6 @@ public class Que26Array {
 		a[2] = 30;
 		a[3] = 40;
 		a[4] = 50;
-		a[5] = 60;
-		a[6] = 70;
-		a[7] = 80;
 
 		for (int i : a) {
 			System.out.println(i);
